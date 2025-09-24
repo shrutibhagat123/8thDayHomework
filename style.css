@@ -1,0 +1,98 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* General Section Styling */
+.section {
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+}
+
+/* Product Overview */
+.overview {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-image {
+  max-width: 300px;
+  border-radius: 10px;
+  border: 2px solid #0077b6;
+}
+
+.product-description {
+  padding: 10px;
+}
+
+/* Features */
+.features h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1 1 250px;
+  background: #eaf4f4;
+  border: 2px solid #90e0ef;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Testimonials */
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.testimonial {
+  flex: 1 1 250px;
+  background: #fff3cd;
+  border: 2px solid #f4a261;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #0077b6;
+  color: white;
+  margin-top: 40px;
+  border-top: 3px solid #005f73;
+}

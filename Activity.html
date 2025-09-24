@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model Hands-On Activity</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    /* Container with different padding values */
+    .padding-box {
+      background-color: lightblue;
+      width: 300px;
+      margin-bottom: 20px;
+      border: 2px solid navy;
+      padding: 40px; /* Try changing this value */
+    }
+
+    /* Two boxes with margins */
+    .margin-box {
+      width: 150px;
+      height: 100px;
+      background-color: lightcoral;
+      border: 2px solid darkred;
+      margin: 20px; /* Try increasing/decreasing */
+      display: inline-block;
+    }
+
+    /* Centering with margin: auto */
+    .center-box {
+      width: 200px;
+      height: 100px;
+      background-color: lightgreen;
+      border: 3px solid green;
+      margin: 20px auto; /* This centers it horizontally */
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+    }
+
+    /* Experimenting with borders and border-radius */
+    .border-box {
+      width: 200px;
+      height: 120px;
+      margin: 20px 0;
+      border: 5px dashed orange;  /* Try solid, dotted, double */
+      border-radius: 20px;        /* Rounded corners */
+      background-color: lemonchiffon;
+    }
+
+    /* Fixed size with padding and border */
+    .fixed-box {
+      width: 200px;
+      height: 100px;
+      padding: 20px;
+      border: 10px solid purple;
+      background-color: lavender;
+      margin-bottom: 20px;
+    }
+
+    /* With box-sizing: border-box */
+    .border-box-sizing {
+      width: 200px;
+      height: 100px;
+      padding: 20px;
+      border: 10px solid teal;
+      background-color: lightcyan;
+      box-sizing: border-box; /* Keeps total size = 200x100 */
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Padding Example</h2>
+  <div class="padding-box">This box has padding.</div>
+
+  <h2>Margin Example</h2>
+  <div class="margin-box"></div>
+  <div class="margin-box"></div>
+
+  <h2>Centered Box (margin: auto)</h2>
+  <div class="center-box">Centered</div>
+
+  <h2>Border & Border-Radius</h2>
+  <div class="border-box"></div>
+
+  <h2>Fixed Size with Padding & Border</h2>
+  <div class="fixed-box">Without box-sizing</div>
+  <div class="border-box-sizing">With box-sizing</div>
+
+</body>
+</html>
